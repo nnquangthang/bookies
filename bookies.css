@@ -1,0 +1,13 @@
+html *{
+	font-family: Noto Sans;
+}
+body{
+	background-image: url('http://vvf.cms.digital-ridge.com/media/565007/Vilarpac_website_background.jpg');
+}
+.li-customer{
+	cursor: pointer;
+}
+.selected{
+	background-color: #337AB7;
+	color: white;
+}

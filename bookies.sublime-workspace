@@ -1,0 +1,713 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cus",
+				"customerCarts"
+			],
+			[
+				"sele",
+				"selectedCustomerId〔variable〕"
+			],
+			[
+				"bo",
+				"books"
+			],
+			[
+				"book",
+				"bookIds"
+			],
+			[
+				"custo",
+				"customerCart"
+			],
+			[
+				"custom",
+				"customer"
+			],
+			[
+				"Cus",
+				"CustomerCarts〔variable〕"
+			],
+			[
+				"selected",
+				"selectedCustomerId"
+			],
+			[
+				"con",
+				"console (obj) [E]"
+			],
+			[
+				"find",
+				"findOne (fn) [E]"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"customers",
+				"customersListView"
+			],
+			[
+				"i",
+				"inheritsHelpersFrom             (fn)   [C]"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"selecte",
+				"selectedCustomer"
+			],
+			[
+				"in",
+				"inheritsHelpersFrom             (fn)   [C]"
+			],
+			[
+				"customer",
+				"customersList"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"cutomer",
+				"customerData"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"custome",
+				"customersListView"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"on",
+				"onLogin                 (fn)  [E]"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"Todo",
+				"Todos (obj) [E]"
+			],
+			[
+				"to",
+				"todoItem       (obj) [E]"
+			],
+			[
+				"docu",
+				"documentId"
+			],
+			[
+				"ta",
+				"target (obj) [C]"
+			],
+			[
+				"eve",
+				"event〔argument〕"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"doc",
+				"documentId"
+			],
+			[
+				"event",
+				"events"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"head",
+				"head	Tag"
+			],
+			[
+				"curr",
+				"currentUserId"
+			],
+			[
+				"isAd",
+				"isAdminorMod"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"isAdmi",
+				"isAdminorMod"
+			],
+			[
+				"fin",
+				"find    (fn) [E]"
+			],
+			[
+				"sel",
+				"selectedCustomer"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"st",
+				"style=〔attribute〕"
+			],
+			[
+				"sear",
+				"searchInput (?) [E]"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"sea",
+				"searchInput〔variable〕"
+			],
+			[
+				"searc",
+				"searchResult"
+			],
+			[
+				"search",
+				"searchInput"
+			],
+			[
+				"is",
+				"isServer                   (bool) [E]"
+			],
+			[
+				"firstName",
+				"firstNameInput"
+			],
+			[
+				"las",
+				"lastNameInput"
+			],
+			[
+				"first",
+				"firstNameInput"
+			],
+			[
+				"addCus",
+				"addCustomerInput"
+			],
+			[
+				"showCu",
+				"showCustomerName (?) [E]"
+			],
+			[
+				"padding",
+				"padding-top: 〔property〕"
+			],
+			[
+				"pla",
+				"playerNameVar"
+			],
+			[
+				"ins",
+				"insertPlayerData"
+			],
+			[
+				"sco",
+				"scoreValue"
+			],
+			[
+				"cu",
+				"currentUserId              (?)    [E]"
+			],
+			[
+				"cur",
+				"currentUserId〔variable〕"
+			],
+			[
+				"cre",
+				"createdBy"
+			],
+			[
+				"inser",
+				"insert"
+			],
+			[
+				"remov",
+				"removePlayerData"
+			],
+			[
+				"Player",
+				"PlayersList〔variable〕"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"player",
+				"playerNameVar"
+			],
+			[
+				"Pla",
+				"PlayersList〔variable〕"
+			],
+			[
+				"cou",
+				"count (fn) [E]"
+			],
+			[
+				"Se",
+				"Session                    (obj)  [E]"
+			],
+			[
+				"play",
+				"playerNameVar"
+			],
+			[
+				"selec",
+				"selectedPlayer"
+			],
+			[
+				"cons",
+				"console (obj) [E]"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bookies.html",
+			"settings":
+			{
+				"buffer_size": 4078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMaterialize\n-----------\n\n  Version 2.3.1\n  ===============================================================================================================================\n  * Added Material One Dark\n  \n  Report any issues/theme requests to https://github.com/saadq/Materialize/issues. Use the \"theme request\" label for a custom request\n  \n  Want to talk about a theme request or just say hi? Send a message to saad@saadquadri.com :D\n\n  Version 2.3.0\n  ===============================================================================================================================\n  * Added Material Spaceblack\n  * Added Material Toy Chest\n  * Added Material Behave\n  * Improved Material Spacegray syntax highlighting for JS\n  * Improved Material Spacegray Light colors\n  \n  Report any issues/theme requests to https://github.com/saadq/Materialize/issues. Use the \"theme request\" label for a custom request\n  \n  Want to talk about a theme request or just say hi? Send a message to saad@saadquadri.com :D\n",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "bookies.js",
+			"settings":
+			{
+				"buffer_size": 2608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bookies.css",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control:install",
+		"selected_items":
+		[
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 359.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/nnqua/Git/bookies"
+	],
+	"file_history":
+	[
+		"/C/Users/nnqua/Git/bookies/bookies.css",
+		"/C/Users/nnqua/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/nnqua/Git/todos/todos.css",
+		"/C/Users/nnqua/Desktop/todos/todos.js",
+		"/C/Users/nnqua/Desktop/todos/todos.css",
+		"/C/Users/nnqua/Git/todos/todos.js",
+		"/C/Users/nnqua/Git/todos/todos.html",
+		"/C/Users/nnqua/Downloads/Compressed/iron-router-devel/iron-router-devel/examples/basic/.meteor/versions",
+		"/D/Project/bookies/bookies.css",
+		"/D/Git/bookies/source/bookies/bookies.css",
+		"/D/Git/bookies/source/bookies/bookies.js",
+		"/D/GitHub/bookies/bookies.js",
+		"/D/GitHub/bookies/bookies.html",
+		"/D/GitHub/bookies/.meteor/.gitignore",
+		"/D/GitHub/bookies/bookies.css",
+		"/D/GitHub/bookies/README.md",
+		"/D/GitHub/Meteor/leaderboard/leaderboard.css",
+		"/D/GitHub/simple-todos/simple-todos.js",
+		"/D/GitHub/simple-todos/simple-todos.html",
+		"/D/Meteor/leaderboard/leaderboard.html",
+		"/D/Leaderboard/leaderboard3.js",
+		"/D/Meteor/leaderboard/leaderboard.js",
+		"/D/Meteor/leaderboard/leaderboard.css",
+		"/C/Users/nnqua/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/nnqua/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"collapseOne",
+			"headingOne",
+			"collapseOne",
+			"()){",
+			");\n",
+			"true",
+			"<\n",
+			"register",
+			"addList",
+			"color:#f00;",
+			"; ",
+			">\n",
+			"});\n",
+			"		{{>",
+			"col-md",
+			"col-sm",
+			"h2",
+			"h3",
+			"customerList",
+			"customerListTemplate",
+			"userId()",
+			",\n",
+			"userId",
+			"currentUser ",
+			"createdBy",
+			"userId()",
+			"userId"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bookies.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4026,
+								4026
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1054,
+								1054
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bookies.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1859,
+								1859
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 975.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bookies.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bookies.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

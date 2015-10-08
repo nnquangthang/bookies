@@ -1,0 +1,162 @@
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	<title>Bookies</title>
+</head>
+<body>
+	{{> navBar}}
+	<div class="container">
+	{{> managerDashboard}}
+		<div class="row">
+			<div class="col-sm-4">
+				{{> customersList}}
+			</div>
+			<div class="col-sm-8">
+				{{> customerData}}
+				{{> customerCart}}
+			</div>
+		</div>
+	</div>
+</body>
+
+<!--start navBar-->
+<template name="navBar">
+<div class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Bookies</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            {{> loginButtons}}
+        </ul>
+    </div>
+</div>
+</template>
+<!--end navBar-->
+
+<!--start managerDashboard-->
+<template name="managerDashboard">
+{{#if isMod}}
+	{{#if isAdmin}}
+		{{> adminDashboard}}
+	{{/if}}
+	{{> modDashboard}}
+{{/if}}
+</template>
+
+
+<template name="adminDashboard">
+	<div class="panel panel-danger">
+    <div class="panel-heading" role="tab" id="adminDashboardHeading">
+      <h4 class="panel-title">
+        <span class="glyphicon glyphicon-king" aria-hidden="true"></span>&nbsp;
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#adminDashboard" aria-expanded="true" aria-controls="adminDashboard">
+          Administrator Dashboard
+        </a>
+      </h4>
+    </div>
+    <div id="adminDashboard" class="panel-collapse collapse" role="tabpanel" aria-labelledby="adminDashboardHeading">
+      <div class="panel-body">
+      Working on progress...
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="modDashboard">
+	<div class="panel panel-warning">
+    <div class="panel-heading" role="tab" id="modDashboardHeading">
+      <h4 class="panel-title">
+        <span class="glyphicon glyphicon-queen" aria-hidden="true"></span>&nbsp;
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#modDashboard" aria-expanded="true" aria-controls="modDashboard">
+          Moderator Dashboard
+        </a>
+      </h4>
+    </div>
+    <div id="modDashboard" class="panel-collapse collapse" role="tabpanel" aria-labelledby="modDashboardHeading">
+      <div class="panel-body">
+      Working on progress...
+      </div>
+    </div>
+  </div>
+</template>
+<!--end managerDashboard-->
+
+<!--start customersList-->
+<template name="customersList">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			{{> searchCustomer}}
+		</div>
+		<div class="panel-body">
+			{{> customersListView}}
+		</div>
+	</div>
+</template>
+<template name="searchCustomer">
+	<div class="input-group">
+		<span class="input-group-addon" id="basic-addon1">Seach</span>
+		<input type="text" name="searchCustomer" class="form-control" placeholder="Name or Student ID" aria-describedby="basic-addon1">
+	</div>
+</template>
+<template name="customersListView">
+	<ul class="list-unstyled">
+		{{#each customers}}
+			{{> customer}}
+		{{/each}}
+	</ul>
+</template>
+<template name="customer">
+	<li class="li-customer {{selectedClass}}">
+	{{lastName}}&nbsp;{{firstName}}
+	</li>
+</template>
+<!--end customersList-->
+
+<!--start customerData-->
+<template name="customerData">
+{{#with customerData}}
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			customerData	
+		</div>
+		<div class="panel-body">
+		Working on progress...
+			<ul>
+				<li>{{lastName}}&nbsp;{{firstName}}</li>
+				<li>{{studentId}}</li>
+				<li>{{studentClass}}</li>
+				<li>{{studentFaculty}}</li>
+			</ul>
+		</div>
+	</div>
+{{/with}}
+</template>
+<!--end customerData-->
+
+<!--start customerCart-->
+<template name="customerCart">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			customerCart		
+		</div>
+		<div class="panel-body">
+			Working on progress...
+			<ul>
+			{{#each customerCart}}
+				{{#with bookDetails}}
+					<li>{{name}}&nbsp;{{publishingHouse}}&nbsp;{{subject}}</li>
+				{{/with}}
+			{{/each}}
+			</ul>
+		</div>
+	</div>
+</template>
+<!--end customerCart-->
+
+
