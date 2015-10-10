@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"curr",
+				"currentUser   (obj) [E]"
+			],
+			[
+				"fi",
+				"findOne"
+			],
+			[
+				"co",
+				"console       (obj)  [E]"
+			],
+			[
 				"cus",
 				"customerCarts"
 			],
@@ -100,10 +112,6 @@
 				"form	Tag"
 			],
 			[
-				"fi",
-				"function"
-			],
-			[
 				"nav",
 				"navigation"
 			],
@@ -150,10 +158,6 @@
 			[
 				"head",
 				"head	Tag"
-			],
-			[
-				"curr",
-				"currentUserId"
 			],
 			[
 				"isAd",
@@ -331,34 +335,15 @@
 			"file": "bookies.html",
 			"settings":
 			{
-				"buffer_size": 4078,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nMaterialize\n-----------\n\n  Version 2.3.1\n  ===============================================================================================================================\n  * Added Material One Dark\n  \n  Report any issues/theme requests to https://github.com/saadq/Materialize/issues. Use the \"theme request\" label for a custom request\n  \n  Want to talk about a theme request or just say hi? Send a message to saad@saadquadri.com :D\n\n  Version 2.3.0\n  ===============================================================================================================================\n  * Added Material Spaceblack\n  * Added Material Toy Chest\n  * Added Material Behave\n  * Improved Material Spacegray syntax highlighting for JS\n  * Improved Material Spacegray Light colors\n  \n  Report any issues/theme requests to https://github.com/saadq/Materialize/issues. Use the \"theme request\" label for a custom request\n  \n  Want to talk about a theme request or just say hi? Send a message to saad@saadquadri.com :D\n",
-			"settings":
-			{
-				"buffer_size": 1054,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 4339,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "bookies.js",
 			"settings":
 			{
-				"buffer_size": 2608,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bookies.css",
-			"settings":
-			{
-				"buffer_size": 239,
+				"buffer_size": 2774,
 				"line_ending": "Windows"
 			}
 		}
@@ -411,10 +396,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/nnqua/Git/bookies"
+		"/C/Users/thangNguyen/Documents/GitHub/bookies"
 	],
 	"file_history":
 	[
+		"/C/Users/thangNguyen/Documents/GitHub/bookies/bookies.html",
+		"/C/Users/thangNguyen/Documents/GitHub/bookies/bookies.css",
+		"/C/Users/thangNguyen/Documents/GitHub/bookies/bookies.js",
 		"/C/Users/nnqua/Git/bookies/bookies.css",
 		"/C/Users/nnqua/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/nnqua/Git/todos/todos.css",
@@ -443,7 +431,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -510,26 +498,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4078,
+						"buffer_size": 4339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4026,
-								4026
+								1185,
+								1185
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 825.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -537,92 +523,33 @@
 				},
 				{
 					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1054,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1054,
-								1054
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "bookies.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2608,
+						"buffer_size": 2774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1859,
-								1859
+								630,
+								630
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 975.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "bookies.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -630,7 +557,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -667,7 +594,7 @@
 	"project": "bookies.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

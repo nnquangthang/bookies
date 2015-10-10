@@ -47,6 +47,7 @@
 	{{/if}}
 	{{> modDashboard}}
 {{/if}}
+
 </template>
 
 
@@ -150,7 +151,8 @@
 			<ul>
 			{{#each customerCart}}
 				{{#with bookDetails}}
-					<li>{{name}}&nbsp;{{publishingHouse}}&nbsp;{{subject}}</li>
+					<li>{{bookName}}&nbsp;{{publishingHouse}}&nbsp;{{subject}}
+					</li>
 				{{/with}}
 			{{/each}}
 			</ul>

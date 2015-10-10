@@ -1,29 +1,34 @@
 //add template-extension
+Managers = new Mongo.Collection('managers');
 Customers = new Mongo.Collection('customers');
 CustomerCarts = new Mongo.Collection('customerCarts');
 Books = new Mongo.Collection('books');
 
 if (Meteor.isClient) {
   //Subscribe
-  Meteor.subscribe('isManager');
+  var managers = Meteor.subscribe('managers');
   Meteor.subscribe('customers');
   Meteor.subscribe('customerCarts');
   Meteor.subscribe('books');
 
   Template.managerDashboard.helpers({
     'isMod': function(){
-      if(Meteor.user()){
-      var currentUser = Meteor.user();
-      console.log("Mod "+currentUser.isMod);
-      return currentUser.isMod;
-    };
+      if(Meteor.userId() && managers.ready()){
+        var currentUserId = Meteor.userId();
+        var manager = Managers.findOne({userId: currentUserId});
+        if(manager){
+          return manager.roles === "mod" || "admin";
+        };
+      };
     },    
     'isAdmin': function(){
-      if(Meteor.user()){
-      var currentUser = Meteor.user();
-      console.log("Admin "+currentUser.isAdmin);
-      return currentUser.isAdmin;
-    };
+      if(Meteor.userId() && managers.ready()){
+        var currentUserId = Meteor.userId();
+        var manager = Managers.findOne({userId: currentUserId});
+        if(manager){
+          return manager.roles === "admin";
+        };
+      };
     },
   });
   //start customersList
@@ -76,11 +81,11 @@ if (Meteor.isClient) {
 }
 
 if (Meteor.isServer) {
-  //Publish
-  Meteor.publish('isManager', function(){
-  var currentUser = this.userId;
-  return Meteor.users.find({_id: currentUser}, {fields:{isMod: 1, isAdmin: 1}})
+  Meteor.publish('managers', function(){
+    var currentUserId = this.userId;
+    return Managers.find({userId: this.userId});
   });
+
   Meteor.publish('customers', function(){
     return Customers.find();
   });
@@ -89,13 +94,6 @@ if (Meteor.isServer) {
   });
   Meteor.publish('books', function(){
     return Books.find({}, {sort:{subject: -1}});
-  });
-
-  //onCreateUser
-  Accounts.onCreateUser(function(options, user){
-    user.isMod = false;
-    user.isAdmin = false;
-    return user;
   });
 
 
